@@ -1,0 +1,251 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body
+{
+    position: absolute;
+} */
+
+/* side .nav-bar */
+.fa-solid
+{
+    cursor: pointer;
+}
+
+.side-navbar
+{  
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; 
+    top:0;  
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(251, 89, 36,0.7);
+    border-radius: 20px;
+}
+.side-navbar .sub-pages
+{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;  
+    color: white;
+    font-size: 1.5rem;
+}
+.sub-pages:hover
+{
+    background-color: #1D2C49   ;
+    border-radius: 20px;
+}
+ 
+
+.firstIdx div
+{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+} 
+
+
+.fa-circle-xmark
+{
+    font-size: 30px;
+}
+
+.nav-bar
+{
+    height: 90px;
+    width: 100vw;
+    background-color:#1D2C49;
+    display: flex;
+    flex-wrap: none;
+}
+.logo{
+    width: 150px;
+    height: 100%;
+    cursor: pointer;
+}
+.logo img
+{
+    height: 100%;
+    width: 100%;
+}
+.buttons
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 60%;
+    padding: 10px 20px;
+    height: 90px;
+ 
+}
+.pages-head
+{   
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+.pages-head a
+{
+    text-decoration: none;
+    color: white;  
+    border: 3px dashed white;
+    border-radius: 5px ; 
+}
+
+.open-close-modal
+{   
+    height: 100%;
+    width: 10%;
+    cursor: pointer;
+    float: right;
+ 
+}
+.fa-bars
+{   
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top:30px;
+}
+
+.container-info
+{
+    display: flex;
+    height: calc(100vh - 90px);
+    flex-wrap: wrap;
+}
+.container-info .info {
+    width: 50%;
+    height: 100%;
+
+}
+
+.left-info
+{
+    background-image: url("images/Health-Diet2.jpg");
+    background-size: cover;
+    opacity: 0.7;
+}
+.right-info
+{
+    background-color: #1D2C49;
+    display: flex;
+    flex-direction: column;
+    /* #FB5924; */
+}
+.right-info .quote
+{      
+    height: 80%;
+    font-size: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.qt
+{   
+    color: white;
+    text-align: center;
+}
+
+.btn
+{   
+    background-color:#FB5924;
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    border:2px solid white;
+}   
+
+
+ @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+#social{
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn { 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border:2px solid #ddd; 
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+
+}
+
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ 
+    font-family: "FontAwesome";
+    content: "\f09a";
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; 
+}
+
+
+.instagramBtn{
+   background:   radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  
+}
+
+.instagramBtn:before{
+      font-family: "FontAwesome";
+      content: "\f16d"; 
+      
+}
+
+.instagramBtn:hover{
+
+  background-image: none;
+  background-color: white;
+  color: #d3249c ;
+  border-color:#FD5F4C;
+  font-weight: 600;
+  border-width: 3px;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}
